@@ -1,30 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-:root {
-    --fundo: #132437;
-    --bg-home: #010300;
-    --linha-decorativa: #C7CDD6;
-    --texto-suave: #B3C0CF;
-    --branco: #ffffff;
-    --amarelo: #F7C13C;
-    --borda-suave: rgba(255, 255, 255 0.2);
-    --sombra-passo-clara: rgba(145, 145, 145, 0.2);
-    --sombra-passo-escura: rgb(0, 0, 0, 0.5);
-    --sombra-neo-clara: rgba(255, 255, 255, 0.7);
-    --sombra-neo-escura: rgba(0, 0, 0, 0.8);
-}
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: "Noto Sans", sans-serif;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     color: var(--branco);
     background-color: var(--bg-home);
@@ -309,16 +282,41 @@ h2 {
 .rodape{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background-color: var(--fundo);
+    padding: 2% 10%;
+    color: var(--branco);
+    height: 40vh;
 }
 
 .rodape-conteudo{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 40px 5%;
 }
 
 .lista-rodape{
-    flex-direction: ;
+    display: flex;
+    gap: 30px;
     list-style: none;
 }
+
+li a{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.linha-divisoria {
+    height: 1px;
+    background-color: var(--borda-suave);
+    margin-top: 20px;
+}
+
+.direitos {
+    text-align: center;
+    color: var(--texto-suave);
+    font-size: 1em;
+    margin-top: 20px;
+}
+
