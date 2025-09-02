@@ -63,7 +63,7 @@ body {
 }
 
 .secao-banner {
-    background-image: url("../Banner\ Home.png");
+    background-image: url("../assets/img/Banner\ Home.png");
     background-position: 20% bottom;
     background-repeat: no-repeat;
     background-size: 70%;
@@ -140,7 +140,7 @@ h2 {
 }
 
 .secao-monitoramento {
-    background-image: url("../Banner\ monitore\ dispositivos.png");
+    background-image: url("../assets/img/Banner\ monitore\ dispositivos.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

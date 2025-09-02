@@ -3,30 +3,67 @@ body {
     color: var(--texto-escuro);
 }
 
-/* Painel esquerdo */
-.painel-esquerdo {
+.cadastro-inteiro {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+}
+
+/* Cabecalho */
+.tela-cadastro {
+    display: flex;
+    justify-content: space-between;
     margin: 50px;
     padding: 40px;
     border-radius: 20px;
-    text-align: center;
     background-color: var(--fundo);
     color: var(--branco);
 }
 
+.titulo {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
 
+.logo {
+    width: 6%;
+}
 
+/* Parte de baixo */
+.cadastro-paineis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.paineis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+label {
+    font-weight: 600;
+    width: 70px;
+    align-self: flex-start;
+}
 
+input {
+    padding: 12px;
+    border: 1px solid var(--borda);
+    border-radius: 10px;
+    font-size: 1rem;
+    width: 100%;
+    gap: 16px;
+}
 
+.texto-aviso {
+    font-weight: 400;
+    font-size: 0.7em;
+    color: #767676;
 
+}
 
-
-
-
-
-
+.olho {
+    display: none;
+}
