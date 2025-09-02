@@ -10,7 +10,6 @@ body {
 }
 
 /* Painel esquerdo */
-
 .painel-esquerdo {
     display: flex;
     flex-direction: column;
@@ -42,7 +41,7 @@ body {
     text-decoration: underline;
 }
 
-/* LADO DIREITO */
+/* Painel direito */
 
 .painel-direito {
     display: flex;
@@ -149,19 +148,22 @@ input {
     }
     
     .painel-esquerdo { 
-        justify-content: space-around;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
         margin: 0;
-        border-radius: 0; 
+        border-radius: 0 0 2% 2%; 
         padding: 2%;
+        height: 25vh;
         
     }
     
     .painel-direito {
-        justify-content: unset;
+        gap: unset;
     }
     
     .descricao {
-        font-size: 1.2em;
+        font-size: 10em;
         max-width: 55%;
     }
     
@@ -171,7 +173,7 @@ input {
     }
     
     .link-cadastro {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             margin-top: 0;
     }
 
@@ -185,12 +187,12 @@ input {
     }
     
     .titulo-login {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         margin: 0;
     }
 
     .subtitulo-login {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin: 0;
     }
 
@@ -204,6 +206,7 @@ input {
     .form-login {
         width: 80%;
         
+        
     }
 
 
@@ -215,6 +218,4 @@ input {
         width: 160px;
         
     }
-
-
 } 
